@@ -34,6 +34,51 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
+
+  INPUT_PW_WINDOW: INPUT_PW_WINDOW {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    display-name = "INPUT_PW_WINDOW";
+    // Credential-like macro body intentionally redacted from public source.
+    bindings = <&none>;
+  };
+
+  SWITCH_INSTANCE_WINDOW: SWITCH_INSTANCE_WINDOW {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LC(GRAVE)>;
+    display-name = "SWITCH_INSTANCE_WINDOW";
+  };
+
+  TERMINAL: TERMINAL {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LC(GRAVE)>;
+    display-name = "TERMINAL";
+  };
+
+  SWITCH_INSTANCE: SWITCH_INSTANCE {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LG(GRAVE)>;
+    display-name = "SWITCH_INSTANCE";
+  };
+
+  SHORTCAT: SHORTCAT {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp RA(INS)>;
+    display-name = "SHORTCAT";
+  };
+
+  PW: PW {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    display-name = "PW";
+    // Credential-like macro body intentionally redacted from public source.
+    bindings = <&none>;
+  };
+
   Win_Cut: Windows_Cut {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
